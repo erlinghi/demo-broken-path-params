@@ -5,7 +5,7 @@ Install and setup Lambda test tools for .NET Core 6.0 as described in https://gi
 Make sure you build the project in src/reproduce-missing-path-params for debug, otherwise the tool won't work.
 
 Running:
-run dotnet lambda-test-tool-6.0 run src/reproduce-missing-path-params. Once the browser is open; paste the example requests provided down below:
+run dotnet lambda-test-tool-6.0 in src/reproduce-missing-path-params. Once the browser is open; paste the example requests provided down below:
 
 Scenario : resource has path parameters and proxy+
 Result: {siteId} is provided to the controller instead of 2626 
