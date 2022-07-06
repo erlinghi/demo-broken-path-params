@@ -12,7 +12,7 @@ Result: {siteId} is provided to the controller instead of 2626
 ```
 {
     "Resource": "/site/{siteId}/{proxy+}",
-    "Path": "/api/payment/site/2626/123123/asdasd",
+    "Path": "/site/2626/123123/asdasd",
     "HttpMethod": "GET",
     "Headers":
     {
